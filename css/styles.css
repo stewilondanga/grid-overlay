@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 /*body {
   text-align: center;
   font-family: courier;
@@ -25,7 +26,6 @@
   height: 1.5em;
 }
 
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
 .container{
 	margin: auto;
