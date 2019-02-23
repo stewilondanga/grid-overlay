@@ -35,12 +35,11 @@
   margin-top: 30px;
 }
 
-/*
 [class^="item"] {
   height: 150px;
 }
 
-.item1 {
+/*.item1 {
   background: rgba(120, 120, 120, .8);
   grid-column-start: 1;
   grid-column-end: span 2;
