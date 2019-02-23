@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,9 +25,6 @@
   height: 1.5em;
 }
 
-*, *:before, *:after {
-	box-sizing: border-box;
-}
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
 .container{
@@ -37,41 +38,43 @@
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 /* 	grid-gap: 2px; */
-	width: 300px;
-	border: 1px green solid;
-	margin-top: 30px;
+width: 300px;
+border: 1px green solid;
+margin-top: 30px;
 }
 
-[class^="item"]{
-	height: 150px;
+[class^="item"] {
+  height: 150px;
 }
+
 .item1 {
-	background: rgba(120, 120, 120, .8);
-	grid-column-start: 1;
-	grid-column-end: span 2;
-	grid-row-start: 1;
-	grid-row-end: span 2;
-	border-radius: 50%;
-	min-height: 50px;
+  background: rgba(120, 120, 120, .8);
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  border-radius: 50%;
+  min-height: 50px;
 }
 
 .item2 {
-	background: rgba(10, 120, 120, .8);
-	grid-column-start: 2;
-	grid-column-end: span 2;
-	grid-row-start: 2;
-	grid-row-end: span 2;
-	border-radius: 50%;
-	min-height: 50px;
+  background: rgba(10, 120, 120, .8);
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  border-radius: 50%;
+  min-height: 50px;
 }
+
 .item3 {
-	background: rgba(10, 10, 120, .8);
-	grid-column-start: 3;
-	grid-column-end: span 2;
-	grid-row-start: 3;
-	grid-row-end: span 2;
-	border-radius: 50%;
-	min-height: 50px;
+  background: rgba(10, 10, 120, .8);
+  grid-column-start: 3;
+  grid-column-end: span 2;
+  grid-row-start: 3;
+  grid-row-end: span 2;
+  border-radius: 50%;
+  min-height: 50px;
 }
 
 .containers {
